@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+body {
+   font-family: "Lato";
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 160%;
+   color: #424551;
+}
+[class*="__container"]{
+   max-width: 810px;
+   margin: 0 auto;
+   /* background: rgb(255, 255, 255); */
+}
+.title h1 {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 92px;
+}
+.image img{
+   max-width: 100%;
+   margin-bottom: 60px;
+}
+.text-bold {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+}
+p {
+   margin-bottom: 24px;
+}
+.text-moved {
+   margin: 48px 0;       /*схлопуємо*/
+   padding-left: 58px;
+}
+.list {
+   margin-bottom: 24px;
+}
+.list ol{
+   padding-left: 32px;
+}
+.lesson-7 {
+   background-image: url(../img/1.png);
+   /* background-repeat: round; */
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: 50%;
+   background-attachment: fixed;
+   color: white;
+   /* height: 10000px; */
+}
+.lesson-item{
+   margin-bottom: 20px;
+   background: rgba(218, 81, 81, 0.719);
+   padding: 20px;
+   border: 5px solid #5c5c5e;
+   height: 300px;
+   overflow: auto;
+   box-shadow: 3px 3px 10px #fff;
+}
+.lesson-item h2{
+   text-align: center;
+   font-weight: 700;
+   font-size: 42px;
+   text-transform: uppercase;
+   text-decoration: underline;
+   letter-spacing: 5px;
+   text-shadow: 2px 2px 2px #000;
+}
+.soup {
+   background: url(../img/soup.jpg) no-repeat top left / 100px, url(../img/soup.jpg) no-repeat bottom left / 100px, url(../img/soup.jpg) no-repeat top right / 100px, url(../img/soup.jpg) no-repeat bottom right / 100px, url(../img/soup.jpg) no-repeat center / 200px, radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,0.5) 30%, rgb(226, 205, 48) 40%);;
+}
+.borsch {
+   background: url(../img/borsch.jpg) 0 0 / 100px repeat-x, url(../img/borsch.jpg) bottom / 100px repeat-x, url(../img/borsch.jpg) 0 0 / 100px repeat-y, url(../img/borsch.jpg) right / 100px repeat-y, url(../img/borsch.jpg) center / auto 50% no-repeat;
+}
+.vareniks{
+   background: url(../img/vareniks.webp) 100% 0 / 50% auto no-repeat,url(../img/vareniks.webp) 0 0 / auto 50%  no-repeat;
+}
+.potato {
+   background: url(../img/potato.webp) 30% / 100px no-repeat, url(../img/potato.webp) 100% 100%/100px no-repeat,url(../img/potato.webp)50%/cover no-repeat;
+}
+.none {
+   display: none;
+}
+
